@@ -1,14 +1,14 @@
 # WeaponKillTracker-v1-FunctionalPrototype
 A Minecraft Paper plugin that tracks player kills and weapon usage with persistent storage.
 
-# 🪓 WeaponKillTracker
+# WeaponKillTracker
 
 A Minecraft Paper plugin that tracks player kills and records which weapons are used to get them.  
 Data is persisted across server restarts using YAML storage.
 
 ---
 
-## 📌 Features
+## Features
 
 - Tracks total player kills
 - Tracks kills per weapon (including unarmed kills as `AIR`)
@@ -19,7 +19,7 @@ Data is persisted across server restarts using YAML storage.
 
 ---
 
-## 🧠 How it works
+## How it works
 
 When a player kills an entity:
 - The plugin detects the killer using `EntityDeathEvent`
@@ -31,7 +31,7 @@ Unarmed kills are recorded as `AIR`.
 
 ---
 
-## 💬 Commands
+## Commands
 
 ### `/stats`
 Displays your personal kill statistics:
@@ -49,7 +49,7 @@ AIR: 2
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 
 - Java 21+
 - Paper 1.20.6+
@@ -57,7 +57,7 @@ AIR: 2
 
 ---
 
-## 🚀 Installation
+## Installation
 
 1. Build the plugin using Maven:
 
@@ -77,7 +77,7 @@ mvn clean package
 
 ---
 
-## 📁 Data Storage
+## Data Storage
 
 Player statistics are stored in:
 
@@ -95,7 +95,7 @@ weapons:
     BOW: 3
     AIR: 2
 
-🛠️ Tech Stack
+## Tech Stack
 
 Java
 Paper API
@@ -103,7 +103,7 @@ Bukkit/Spigot event system
 YAML configuration storage
 Maven build system
 
-📌 Project Status
+## Project Status
 
 This is a functional prototype (v1) built for learning plugin development concepts such as:
 
