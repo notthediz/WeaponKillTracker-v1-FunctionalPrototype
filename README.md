@@ -118,6 +118,7 @@ Future improvements planned:
 leaderboard system (/topkills)
 GUI-based stats menu
 cleaner architecture (service/manager separation)
-👤 Author
+
+## Author
 
 Built by @notthediz as a learning project in Minecraft plugin development.
