@@ -1,3 +1,9 @@
+<img width="1907" height="971" alt="minecraft2" src="https://github.com/user-attachments/assets/f560f875-2511-4fe8-8e66-ad8e29baf998" />
+
+
+<img width="1901" height="962" alt="minecraft 1" src="https://github.com/user-attachments/assets/7ba3ab5c-5917-46fc-b9c8-2b61b80b9379" />
+
+
 # WeaponKillTracker-v1-FunctionalPrototype
 A Minecraft Paper plugin that tracks player kills and weapon usage with persistent storage.
 
